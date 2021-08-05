@@ -1,0 +1,2 @@
+.chatGrid{display:grid;grid-template-columns:1fr;grid-template-rows:auto;border:8px solid #7261a3;border-radius:15px;overflow-y:scroll;height:65vh}div.msg.sent{background-color:#f7dad9}div.msg.received,div.msg.sent{display:flex;flex-direction:row;padding:13px 15px 10px}div.msg.received{background-color:#cfacc9}
+/*# sourceMappingURL=main.6fc6c310.chunk.css.map */
