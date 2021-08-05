@@ -25,7 +25,7 @@ const useStyles = makeStyles({
     fontWeight: "700",
     backgroundColor: "white",
     padding: "13px 12px 10px 12px",
-    margin: "0 0 12px 12px",
+    margin: "0 0 28px 12px",
     borderRadius: "10px",
     boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
   },
