@@ -1,4 +1,4 @@
-# Weather.io - A Simple React.js Weather App
+# ChatBoard - A React & Firebase Chat Application
 
 ## Table of contents
 
