@@ -48,7 +48,7 @@ function SignOut() {
       >
         <BiLogOutCircle />
       </Button>
-      <a href="#">
+      <a href="https://hebree123.github.io/chat-app-react/">
         <FaGithub className={classes.gitHubLink} />
       </a>
     </Box>
