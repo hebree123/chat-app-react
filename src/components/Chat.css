@@ -1,0 +1,23 @@
+.chatGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  border: 8px solid #7261a3;
+  border-radius: 15px;
+  overflow-y: scroll;
+  height: 65vh;
+}
+
+div.msg.sent {
+  display: flex;
+  flex-direction: row;
+  background-color: #f7dad9;
+  padding: 13px 15px 10px 15px;
+}
+
+div.msg.received {
+  display: flex;
+  flex-direction: row;
+  background-color: #cfacc9;
+  padding: 13px 15px 10px 15px;
+}
