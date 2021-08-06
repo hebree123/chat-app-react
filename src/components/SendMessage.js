@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import firebase from "firebase";
 import { db, auth } from "../firebase";
 
-import { Box, TextField } from "@material-ui/core";
+import { Box, Button, TextField } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core";
 
 import { RiSendPlaneFill } from "react-icons/ri";
@@ -59,7 +59,11 @@ function SendMessage() {
           onChange={(e) => setMsg(e.target.value)}
           placeholder="Enter Message"
           InputProps={{
-            endAdornment: <RiSendPlaneFill className={classes.sendIcon} />,
+            endAdornment: (
+              <Button type="submit" size="small" disableTouchRipple={true}>
+                <RiSendPlaneFill className={classes.sendIcon} />
+              </Button>
+            ),
             disableUnderline: true,
             className: classes.messageInputText,
           }}
